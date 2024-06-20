@@ -1,0 +1,25 @@
+body{
+    background-color: dimgrey;
+}
+
+.logo{
+    margin: 0 20px 0 20px;
+}
+
+.ContPpal h1{
+    margin: 70px 0 100px 0;
+    font-family: "Playwrite NG Modern", cursive;
+    text-align: center;
+    color: black;
+
+}
+
+.ContPpal p{
+    margin: 100px 0 100px 0;
+    padding: 0 100px 0 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+
+}
