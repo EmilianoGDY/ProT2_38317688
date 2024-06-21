@@ -1,0 +1,46 @@
+body{
+    background-color: dimgrey;
+}
+
+.logo{
+    margin: 0 20px 0 20px;
+}
+
+.Principal{
+    margin-top: 100px;
+    padding: 0 50px 0 50px;
+    align-items: center;
+}
+
+.Encabezado p{
+    font-size: 25px;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Principal h1{
+    text-align: center;
+    font-family: "Playwrite NG Modern", cursive;
+    color: black;
+    margin-top: 50px;
+}
+
+.Cartas{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card{
+    margin: 40px;
+}
+
+.card-body{
+    background-color:cornflowerblue;
+}
+
+.card-body p{
+    color: black;
+}
+
+.card-body h5{
+    color: black;
+}
