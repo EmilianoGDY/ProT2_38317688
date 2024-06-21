@@ -8,7 +8,7 @@ function loguear(){
     let permitidos = ["Emiliano", "JuanP", "Miguelon","Carlos11"];
 
     if(permitidos.includes(user) && pass=="1234"){
-        window.location="main.html";
+        window.location="inicio.html";
     }
     else{
         alert("Datos Incorrectos");
