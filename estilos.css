@@ -53,3 +53,10 @@ body{
     text-align: center;
     padding: 0 30px 0 30px;
 }
+
+.carousel-caption h3{
+    background-color: aliceblue;
+    color:crimson;
+    margin: 0 200px 0 200px;
+
+}
