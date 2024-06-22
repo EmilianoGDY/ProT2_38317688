@@ -13,12 +13,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <script src="registrarse.js"></script>
 </head>
 <body>
     <h1>Bienvenido a Tus Clases de Guitarra</h1>
     <h3>Por favor proporciones los datos solicitados para crear una cuenta y asi poder navegar en el sitio</h3>
     <div class="Principal d-flex justify-content-center">
-        <form action="" class="d-flex flex-column flex-wrap">
+
+        <form action="" method="POST" class="d-flex flex-column flex-wrap" id="form">
             <h1>Tus Clases de Guitarra</h1>
 
             <label for="">Nombre</label>
@@ -37,7 +39,8 @@
             <input type="password" placeholder="Escriba su Contraseña" id="pass" required>
 
 
-            <button type="button" class="btn btn-success m-3" onclick="loguear()">Registrarse</button>
+            <button type="button" class="btn btn-success m-3" onclick="registrar()">Registrarse</button>
+            <p class="warnings" id="warnings"></p>
         </form>
 
 
